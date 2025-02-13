@@ -78,15 +78,16 @@ function main(){
         game("r");
     })
     
-    scissor_div.addEventListener('click', function() {
+    paper_div.addEventListener('click', function() {
         game("p"); 
     })
     
-    paper_div.addEventListener('click', function() {
+    scissor_div.addEventListener('click', function() {
         game("s");
     })
 }
 
 main();
 
+main();
 
